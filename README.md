@@ -13,5 +13,6 @@ curl https://sheltered-savannah-11540.herokuapp.com/
 ### Python
 ```
 import requests
+
 requests.get('https://sheltered-savannah-11540.herokuapp.com/').text
 ```
