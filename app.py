@@ -37,7 +37,7 @@ def main():
     randomNumber = randint(0,len(quotes)-1) 
     quote = quotes[randomNumber]
     
-    return quote + "/n"
+    return quote + "\n"
 
 
 @app.route("/hello")
