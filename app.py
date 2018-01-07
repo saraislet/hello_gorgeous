@@ -17,7 +17,18 @@ quotes = [ "Hello, gorgeous",
            "You can do the thing",
            "You inspire people",
            "You rock",
-           "You're appreciated"  ]
+           "You're appreciated",
+           "You're admired",
+           "You are powerful",
+           "You are capable",
+           "You are brilliant",
+           "You are loved",
+           "You are fun",
+           "You make good things happen",
+           "You make a difference",
+           "Your words and actions are meaningful",
+           "Your opinion matters",
+           "I believe in you"]
 
 
 @app.route("/")
