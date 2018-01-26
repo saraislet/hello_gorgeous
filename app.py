@@ -7,8 +7,12 @@ Created on Wed Oct 18 13:25:20 2017
 
 from random import randint
 from flask import Flask, render_template
+from flask_cors import CORS, cross_origin
+
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config["CORS_HEADERS"] = "Content-Type"
 
 quotes = [ "Hello, gorgeous",
            "You look good today",
@@ -32,6 +36,7 @@ quotes = [ "Hello, gorgeous",
 
 
 @app.route("/")
+@cross_origin()
 def main():
     # Return words of affirmation
     randomNumber = randint(0,len(quotes)-1) 
