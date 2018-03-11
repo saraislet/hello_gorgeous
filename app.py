@@ -9,30 +9,9 @@ from random import randint
 from flask import Flask, render_template
 from flask_cors import CORS, cross_origin
 
-
 app = Flask(__name__)
 cors = CORS(app)
 app.config["CORS_HEADERS"] = "Content-Type"
-
-quotes = [ "Hello, gorgeous",
-           "You look good today",
-           "You are valued, and you are worthy",
-           "You do good work",
-           "You can do the thing",
-           "You inspire people",
-           "You rock",
-           "You're appreciated",
-           "You're admired",
-           "You are powerful",
-           "You are capable",
-           "You are brilliant",
-           "You are loved",
-           "You are fun",
-           "You make good things happen",
-           "You make a difference",
-           "Your words and actions are meaningful",
-           "Your opinion matters",
-           "I believe in you"]
 
 
 @app.route("/")
@@ -56,3 +35,36 @@ def hello():
 
 if __name__ == "__main__":
     app.run()
+
+
+quotes = [ "Hello, gorgeous",
+           "You look good today",
+           "You are valued, and you are worthy",
+           "You do good work",
+           "You can change the future",
+           "You can do the thing",
+           "You can move mountains",
+           "You inspire people",
+           "You rock",
+           "You're appreciated",
+           "You're a badass",
+           "You are a gem",
+           "You are admired",
+           "You are amazing",
+           "You are brilliant",
+           "You are capable",
+           "You are fun",
+           "You are loved",
+           "You are lovely",
+           "You are powerful",
+           "You are revolutionary",
+           "You are smart",
+           "You are worth it",
+           "You make good things happen",
+           "You make a difference",
+           "Your opinion matters",
+           "Your presence matters",
+           "Your presence is valuable",
+           "Your words and actions are meaningful",
+           "I am proud of you",
+           "I believe in you"]
